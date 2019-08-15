@@ -38,9 +38,6 @@ class MarkFeaturesPopup extends SdkPopup {
 
   constructor(props) {
     super(props);
-    this.state = {
-      test: true
-    }
     this.markFeatures = this.markFeatures.bind(this);
     this.movePopup = this.movePopup.bind(this);
   }
