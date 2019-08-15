@@ -1,3 +1,5 @@
+@import "@boundlessgeo/sdk/stylesheet/sdk.scss";
+
 .App {
   text-align: center;
 }
@@ -22,7 +24,11 @@
 .App-link {
   color: #61dafb;
 }
-
+.map {
+  margin: 50px;
+  width:800px;
+  position: relative;
+}
 @keyframes App-logo-spin {
   from {
     transform: rotate(0deg);
@@ -30,4 +36,7 @@
   to {
     transform: rotate(360deg);
   }
+}
+.custom-popup {
+  width: 125px;
 }
