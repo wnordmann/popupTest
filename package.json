@@ -4,7 +4,7 @@
   "private": true,
   "dependencies": {
     "@boundlessgeo/sdk": "^2.7.5",
-    "node-sass": "^4.12.0",
+    "node-sass": "^7.0.0",
     "ol": "^5.3.3",
     "ol-mapbox-style": "^4.3.1",
     "react": "^16.9.0",
